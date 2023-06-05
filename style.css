@@ -78,3 +78,42 @@ background-color: rgb(203, 203, 114);
     right:70% ;
     left: 20%;
 }
+
+/*-------------------------ventana editar------------------------*/
+
+.ventana__edit{
+    display: none;
+}
+.ventana__edit_show{
+    position:absolute;
+    top: 20vh;
+    right: 30%;
+    left: 30%;
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    border: 1px solid black;
+    padding: 5px;
+    background-color: white;
+    border-radius: 5px;
+}
+.ventana__edit__inputs{
+    display: inherit;
+    flex-direction: column;
+  
+    margin: 5px;
+}
+.ventana__edit_buttons{
+ align-self: center;
+}
+.input_datos{
+    height: 35px;
+    border-radius: 5px;
+    border-color: rgb(180, 202, 243);
+    margin: 10px;
+    text-align: center;
+}
+ h3{
+ text-align: center;
+
+    }

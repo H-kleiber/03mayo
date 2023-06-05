@@ -11,7 +11,7 @@
 
     <main class="container">
        
-        <section class="default_eliminar">
+        <section id="default_eliminar_id" class="default_eliminar">
             <div>
                 <h3>Estas seguro que quieres eliminar a esta mascota</h3>
             </div>
@@ -20,8 +20,24 @@
             <div class="cancelar">cancelar</div>
             </div>
         </section>
+
+        <section id="ventana__edit_id" class="ventana__edit">
+            <div class="ventana__edit__inputs">
+                <div id="title" ><h3>Editar Card</h3></div>
+                <input class="input_datos"id="nombre" type="text" placeholder="nombre">
+                <input class="input_datos" id="telefono" type="text" placeholder="telefono">
+                <input class="input_datos"id="pais"type="text" placeholder="pais">
+                <input class="input_datos"id="descripcion" type="text" placeholder="descripcion">
+             </div>
+            <div class="ventana__edit_buttons">
+                <button class="ventana__edit_guardar">guardar</button>
+                <button class="ventana__edit_cancelar">cancelar</button>
+            </div>
+        </section>
         
     </main>
+
+    
 
     
     <script src="app.js"></script>
