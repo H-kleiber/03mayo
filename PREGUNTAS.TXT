@@ -1,0 +1,19 @@
+● ¿Por qué evitar los callbacks en las llamadas asíncronas?
+
+Callbacks -Es una función que se pasa a otra función de argumento,la cual
+se invoca dentro de la función externa para realizar algún tipo de acción.
+
+
+● ¿Qué es una promesa?
+
+Una Promise es un objeto utilizados para gestionar el código asíncrono,que
+espera que de con un resultado. -Tenemos a:
+
+resolve
+reject y tenemos el metodo. .THEN - .CATCH
+
+● ¿Qué es el callback hell?
+
+se origina cuando se empieza a pasar una función como parámetro que a su vez 
+llama a otra función como parámetro, y así hasta que nose nota tener un codigo 
+legible.
